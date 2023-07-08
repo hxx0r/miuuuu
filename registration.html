@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="css/style.css">
+	<script src="js/app.js" defer></script>
+
+</head>
+<header>
+    <div class="topnav">
+        <a href="index.html">Главная</a>
+        <a href="news.html">новости?</a>
+        <a  class="active" href="#about">Регистрация</a>
+        </div>
+      </div>
+</header>
+<body>
+  
+    <form action="action_page.php">
+        <div class="container">
+          <h1>Регистрация</h1>
+          <p>(сразу говорю-поле регистрации НЕ РАБОЧЕЕ, можете его не заполнять)</p>
+          <p>Заполните поля ниже для регистрации</p>
+          <hr>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+          <label for="psw"><b>Пароль</b></label>
+          <input type="password" placeholder="Придумайте пароль" name="psw" required>
+      
+          <label for="psw-repeat"><b>Повторите пароль</b></label>
+          <input type="password" placeholder="Повторите пароль" name="psw-repeat" required>
+          <hr>
+      <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Запомнить меня
+          </label>
+      
+          <p>Создавая аккаунт вы соглашаетесь с <a href="privacy.html">условиями конфиденциальности</a>.</p>
+          <button type="submit" class="registerbtn">Зарегистрироваться</button>
+        </div>
+        
+        <div class="container signin">
+          <p class="font">Уже есть аккаунт? <a href="#">Войти</a>.</p>
+        </div>
+      </form>
+      
+
+</body>
+<footer>
+  <footer>
+     <P> &copy да не знаю я как закреплять свои права на сайте((</P>
+    </footer>
+</footer>
